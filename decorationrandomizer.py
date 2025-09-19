@@ -1,6 +1,5 @@
 import random
 import os
-iterations = 20
 terminal_width = int(input("What's the width of the terminal?: "))
 terminal_height = int(input("What's the height of the terminal?: "))
 square_size = int(input("What's the size of the character?: "))
@@ -50,4 +49,5 @@ def main():
     print_grid(grid)
 
 if __name__ == "__main__":
+
     main()
